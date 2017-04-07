@@ -1,5 +1,7 @@
 FROM jenkins:2.46.1
 
+MAINTAINER  iceihehe "iceihehe@gmail.com"
+
 USER root
 
 RUN echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list
